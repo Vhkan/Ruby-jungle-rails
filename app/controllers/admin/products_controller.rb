@@ -1,4 +1,7 @@
 class Admin::ProductsController < ApplicationController
+  #adding authentication method used as a before action in controllers to protect sens info
+  #placed here for protection before any action in the controller
+  before_action :authenticate
 
   def index
     @products = Product.order(id: :desc).all
@@ -37,4 +40,10 @@ class Admin::ProductsController < ApplicationController
     )
   end
 
+  #authenticate method
+  def authenticate
+    authenticate_or_request_with_http_basic("Administration") do |username, password|
+      username == ENV['ADMIN_USERNAME'] && password == ENV['ADMIN_PASSWORD']
+    end
+  end
 end
