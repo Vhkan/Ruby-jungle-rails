@@ -1,6 +1,12 @@
 <section class="signup  ">
   <h1>SignUp!</h1>
 
+  <% flash.each do |type, message| %>
+    <div> 
+      <%= message %>
+    </div>
+  <% end %>
+
   <%= form_for :user, url: '/users' do |f| %>
 
     <div class="form-group">
