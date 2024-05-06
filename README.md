@@ -42,7 +42,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ![Items Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/ruby-jungle_sec.png "Items Page")
 ![Single-Item Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/ruby_jungle_item_page.png "Single-Item Page")
 ![Admin Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/jungle_admin_page.png "Admin Page")
-![SignUp Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/ruby_jungle_signup.png "SignUp Page")
+![SignUp Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/jungle_signup.png "SignUp Page")
 ![Cart Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/jungle_cart.png "Cart Page")
 ![Payment Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/jungle_payment.png "Payment Page")
 ![Order Page](https://github.com/Vhkan/Ruby-jungle-rails/blob/master/documents/jungle_completed_order.png "Order Page")
